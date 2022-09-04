@@ -20,13 +20,13 @@
 <!-- nav bar -->
 <nav class="navbar navbar-expand-lg bg-white sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="#home"><img id="logo" src="images/logo.png"></a>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="#about">About_Us</a>
         <a class="nav-link" href="#team">Team</a>
         <a class="nav-link" href="#projects">Projects</a>
@@ -38,12 +38,12 @@
 </nav>
 
 <!-- backgroung Image -->
-<div id="backImg" i>
+<div id="backImg">
 </div>
 
 
 <!-- About Us -->
-<div class="container border border-dark border-5 rounded-5" id="about">
+<div class="container border border-dark border-4 rounded-5" id="about">
 <p><label id="rainbow">CORSIT</label> ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam itaque ipsum commodi repellendus eaque alias. Esse minima pariatur nisi rerum odio eius accusamus, ipsa ab ad unde aut voluptates. Dolore illum ratione dolorem, quam deleniti reprehenderit nobis obcaecati magni dolorum? Illo culpa voluptatem cupiditate possimus nulla. Non, eligendi rem!</p>
 </div>
 
@@ -52,48 +52,46 @@
 <div class="spacing" id="team">
   
   <div class="container">
-    <h2>Team Leads</h2>
+    <h2 class="inner-spacing">Team Leads</h2>
     <div class="row">
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" >
           <img src="images/TeamMembers/human.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Vishal Mishra</h5>
+            <p class="card-text">President</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" >
           <img src="images/TeamMembers/human.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Vice-President</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" >
           <img src="images/TeamMembers/human.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
+            <h5 class="card-title">Card title</h5> 
+            <p class="card-text">Tech Lead</p>           
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
           <img src="images/TeamMembers/human.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
+            <p class="card-text">Treasure</p>            
           </div>
         </div>
       </div>
     </div>
-    <button type="button" class="btn btn-primary float-end" style="margin-top:20px;">more</button>
+    <button type="button" class="btn btn-primary float-end">more</button>
   </div>
 </div>
 
@@ -102,7 +100,7 @@
 
 <div class="spacing" id="projects">
   <div class="container">
-    <h2>Projects</h2>
+    <h2 class="inner-spacing">Projects</h2>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -146,7 +144,7 @@
 
 <div class="spacing" id="achievements">
   <div class="container">
-    <h2>Achievements</h2>
+    <h2 class="inner-spacing">Achievements</h2>
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -191,28 +189,30 @@
 <div class="spacing" id="follow">
   
    <div class="row">
-    <div class="col-3 d-flex justify-content-center">
-      <i class="fa-brands fa-facebook fa-3x " ></i>
+    <div class="col-2 d-flex ">
     </div>
-    <div class="col-3 d-flex justify-content-center">
-      <i class="fa-brands fa-instagram   fa-3x" ></i>
+    <div class="col-2 d-flex justify-content-center">
+      <i class="fa-brands fa-facebook fa-2x " ></i>
     </div>
-    <div class="col-3 d-flex justify-content-center">
-      <i class="fa-brands fa-youtube fa-3x" ></i>
+    <div class="col-2 d-flex justify-content-center">
+      <i class="fa-brands fa-instagram   fa-2x" ></i>
     </div>
-    <div class="col-3 d-flex justify-content-center">
-      <i class="fa-brands fa-linkedin fa-3x" ></i>
+    <div class="col-2 d-flex justify-content-center">
+      <i class="fa-brands fa-youtube fa-2x" ></i>
+    </div>
+    <div class="col-2 d-flex justify-content-center">
+      <i class="fa-brands fa-linkedin fa-2x" ></i>
+    </div>
+    <div class="col-2 d-flex ">
     </div>
    </div>
   
 </div>
 
-
-
-  <!-- JS libraries -->
-  <script src="https://kit.fontawesome.com/827042774c.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script type="script"src="JS/main.js"></script>
+<!-- JS libraries -->
+<script src="https://kit.fontawesome.com/827042774c.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script type="script"src="JS/main.js"></script>
 </body>
 
 <footer class="bg-light text-center text-lg-start">

@@ -1,6 +1,54 @@
-/* 
-@media only screen and (max-width: 600px) {
-    #logo{
-      height:22vw;
-    }
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  #logo {
+    height: 5vh;
+  }
+  #backImg{
+    height:70vw;
+  }
+  #rainbow{
+    font-size: 22px;
+  }
+
+  .inner-spacing{
+    margin-bottom: 25px;;
+  }
+
+  .card-img-top{
+    height:250px;
+}
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  #logo {
+     height: 6vh;
+  }
+
+  #rainbow{
+    font-size: 22px;
+  }
+
+  .card-img-top{
+    height:280px;
+}
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  #logo {
+    height: 6vh;
+  }
+  #rainbow{
+    font-size: 22px;
+  }
+
+}
+
+
+/* Media Query for Laptops and Desktops */
+/* @media (min-width: 1025px) and (max-width: 1280px){
+
 } */
